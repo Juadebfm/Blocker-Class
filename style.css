@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 30px;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.counter {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.step-row {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#stepInput {
+  width: 60px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: black;
+  /* transition: all 0.3s ease; */
+}
+
+/* .btn:hover {
+  background-color: rgba(0, 0, 0, 0.756);
+} */
+
+.btn-decrease {
+  background-color: #d63031;
+}
+
+.btn-increase {
+  background-color: #00b894;
+}
+
+.hint {
+  color: #daa303;
+  font-size: 13px;
+  min-height: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
